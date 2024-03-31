@@ -21,7 +21,7 @@ export default function HeroSection() {
       setIndex((index + 1) % phrases.length);
     }, 5000); 
     return () => clearTimeout(timer);
-  }, [magicName]);
+  }, [index, magicName]);
 
   return (
     <div className="flex flex-col justify-center items-center text-center" style={{ minHeight: '80vh' }}>
