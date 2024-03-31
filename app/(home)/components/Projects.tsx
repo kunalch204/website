@@ -31,7 +31,7 @@ export default function Projects() {
         SiGithub,
       ],
       link: "https://github.com/kunalch204/UsedCarPricePredictor",
-      cover: "/profile-1.png",
+      cover: "/profile-1.JPG",
       background: "bg-blue-500",
     },
     {
